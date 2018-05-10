@@ -1,0 +1,30 @@
+<mvt:assign name="l.settings:clean:product:name" value="glosub(l.settings:product:name, asciichar(39), '&#39;')" />
+<script>
+	ImageMachine.prototype.ImageMachine_Generate_Thumbnail = function (thumbnail_image, main_image, closeup_image, type_code) {
+		var thumbnail,
+			img;
+
+		thumbnail = document.createElement('li');
+		thumbnail.classList.add('o-layout__item');
+		thumbnail.classList.add('x-product-layout-images__thumbnail-image');
+		
+		if (typeof( thumbnail_image ) === 'string' && thumbnail_image.length > 0) {
+			img = document.createElement('img');
+			img.src = thumbnail_image;
+			img.setAttribute('alt', '&mvt:clean:product:name;');
+			img.setAttribute('title', '&mvt:clean:product:name;');
+
+			thumbnail.appendChild(img);
+		}
+
+		return thumbnail;
+	}
+
+
+	/**
+	 * This disables the default Miva image zoom functionality.
+	 */
+	ImageMachine.prototype.Closeup_Open = function () {
+		return false;
+	}
+</script>

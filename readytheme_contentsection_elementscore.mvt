@@ -1,0 +1,73 @@
+<mvt:comment>
+| The following links are used to determine which files get included in the framework export.
+</mvt:comment>
+
+<mvt:comment>
+	CSS
+	<link href="themes/shadows/core/css/core-styles.css">
+	
+	<link href="themes/shadows/core/css/base/_base.css">
+	<link href="themes/shadows/core/css/base/normalize.css">
+	<link href="themes/shadows/core/css/base/resets.css">
+	
+	<link href="themes/shadows/core/css/elements/_elements.css">
+	<link href="themes/shadows/core/css/elements/forms.css">
+	<link href="themes/shadows/core/css/elements/links.css">
+	<link href="themes/shadows/core/css/elements/media.css">
+	<link href="themes/shadows/core/css/elements/page.css">
+	<link href="themes/shadows/core/css/elements/tables.css">
+	<link href="themes/shadows/core/css/elements/typography.css">
+	
+	<link href="themes/shadows/core/css/objects/_objects.css">
+	<link href="themes/shadows/core/css/objects/layout.css">
+	<link href="themes/shadows/core/css/objects/lists.css">
+	<link href="themes/shadows/core/css/objects/tables.css">
+	<link href="themes/shadows/core/css/objects/wrapper.css">
+	
+	<link href="themes/shadows/core/css/components/_components.css">
+	<link href="themes/shadows/core/css/components/buttons.css">
+	<link href="themes/shadows/core/css/components/control-groups.css">
+	<link href="themes/shadows/core/css/components/divider.css">
+	<link href="themes/shadows/core/css/components/forms.css">
+	<link href="themes/shadows/core/css/components/keyline.css">
+	<link href="themes/shadows/core/css/components/menu.css">
+	<link href="themes/shadows/core/css/components/mini-modal.css">
+	<link href="themes/shadows/core/css/components/navigation.css">
+	<link href="themes/shadows/core/css/components/tables.css">
+	<link href="themes/shadows/core/css/components/typography.css">
+	
+	<link href="themes/shadows/core/css/utilities/_utilities.css">
+	<link href="themes/shadows/core/css/utilities/borders.css">
+	<link href="themes/shadows/core/css/utilities/clear-fix.css">
+	<link href="themes/shadows/core/css/utilities/colors.css">
+	<link href="themes/shadows/core/css/utilities/display.css">
+	<link href="themes/shadows/core/css/utilities/grids.css">
+	<link href="themes/shadows/core/css/utilities/icons.css">
+	<link href="themes/shadows/core/css/utilities/print.css">
+	<link href="themes/shadows/core/css/utilities/ReadyTheme.woff">
+	<link href="themes/shadows/core/css/utilities/typography.css">
+	<link href="themes/shadows/core/css/utilities/vertical-align.css">
+	<link href="themes/shadows/core/css/utilities/widths.css">
+	<link href="themes/shadows/core/css/utilities/z-index.css">
+
+	
+	Images
+	<link href="themes/shadows/core/images/img_cvv.png">
+	<link href="themes/shadows/core/images/logo_amex.png">
+	<link href="themes/shadows/core/images/logo_check.png">
+	<link href="themes/shadows/core/images/logo_discover.png">
+	<link href="themes/shadows/core/images/logo_mastercard.png">
+	<link href="themes/shadows/core/images/logo_paypal.png">
+	<link href="themes/shadows/core/images/logo_ppal_invc.png">
+	<link href="themes/shadows/core/images/logo_ppal_opay.png">
+	<link href="themes/shadows/core/images/logo_ppal_osel.png">
+	<link href="themes/shadows/core/images/logo_visa.png">
+
+	
+	404 Page
+	<link href="404.html">
+	
+	
+	Robots
+	<link href="robots.txt">
+</mvt:comment>
