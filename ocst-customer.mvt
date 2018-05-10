@@ -122,7 +122,7 @@
 					<label class="c-form-label u-text-italic u-color-gray-40 u-font-tiny" for="l-ShipCompany">Company (Optional)</label>
 					<input id="l-ShipCompany" class="c-form-input c-form-input--large" type="text" name="ShipCompany" value="&mvte:global:ShipCompany;">
 				</li>
-				<li class="c-form-list__item o-layout__item u-width-8--m &mvte:global:ShipEmail_Row;">
+				<li class="c-form-list__item o-layout__item u-width-4--m &mvte:global:ShipEmail_Row;">
 					<label class="c-form-label u-text-medium u-color-gray-40 is-required u-font-tiny" for="l-ShipEmail">Email Address</label>
 					<input id="l-ShipEmail" class="c-form-input c-form-input--large" data-hook="ShipEmail" type="email" name="ShipEmail" value="&mvte:global:ShipEmail;" &mvt:shipping_required;>
 				</li>
@@ -130,15 +130,10 @@
 					<label class="c-form-label u-text-medium u-color-gray-40 is-required u-font-tiny" for="l-ShipPhone">Phone Number</label>
 					<input id="l-ShipPhone" class="c-form-input c-form-input--large" type="tel" name="ShipPhone" value="&mvte:global:ShipPhone;" &mvt:shipping_required;>
 				</li>
-				<!--
-					Due to the lack of use in most stores, the fax field is commented out.
-					If you find that you, or a client, needs the field, remove the HTML comment tags and adjust
-					the width class of the email address to u-width-4--m.
 				<li class="c-form-list__item o-layout__item u-width-4--m &mvte:global:ShipFax_Row;">
 					<label class="c-form-label u-text-italic u-color-gray-40 u-font-tiny" for="l-ShipFax">Fax Number</label>
 					<input id="l-ShipFax" class="c-form-input c-form-input--large" type="tel" name="ShipFax" value="&mvte:global:ShipFax;">
 				</li>
-				-->
 				<li class="c-form-list__item o-layout__item u-width-8--m &mvte:global:ShipAddress1_Row;">
 					<label class="c-form-label u-text-medium u-color-gray-40 is-required u-font-tiny" for="l-ShipAddress1">Address</label>
 					<input id="l-ShipAddress1" class="c-form-input c-form-input--large" type="text" name="ShipAddress1" value="&mvte:global:ShipAddress1;" &mvt:shipping_required;>
@@ -225,7 +220,7 @@
 					<label class="c-form-label u-text-italic u-color-gray-40 u-font-tiny" for="l-BillCompany">Company (Optional)</label>
 					<input id="l-BillCompany" class="c-form-input c-form-input--large" type="text" name="BillCompany" value="&mvte:global:BillCompany;">
 				</li>
-				<li class="c-form-list__item o-layout__item u-width-8--m &mvte:global:BillEmail_Row;">
+				<li class="c-form-list__item o-layout__item u-width-4--m &mvte:global:BillEmail_Row;">
 					<label class="c-form-label u-text-medium u-color-gray-40 is-required u-font-tiny" for="l-BillEmail">Email Address</label>
 					<input id="l-BillEmail" class="c-form-input c-form-input--large" data-hook="BillEmail" type="email" name="BillEmail" value="&mvte:global:BillEmail;" &mvt:billing_required;>
 				</li>
@@ -233,15 +228,10 @@
 					<label class="c-form-label u-text-medium u-color-gray-40 is-required u-font-tiny" for="l-BillPhone">Phone Number</label>
 					<input id="l-BillPhone" class="c-form-input c-form-input--large" type="tel" name="BillPhone" value="&mvte:global:BillPhone;" &mvt:billing_required;>
 				</li>
-				<!--
-					Due to the lack of use in most stores, the fax field is commented out.
-					If you find that you, or a client, needs the field, remove the HTML comment tags and adjust
-					the width class of the email address to u-width-4--m.
 				<li class="c-form-list__item o-layout__item u-width-4--m &mvte:global:BillFax_Row;">
 					<label class="c-form-label u-text-italic u-color-gray-40 u-font-tiny" for="l-BillFax">Fax Number</label>
 					<input id="l-BillFax" class="c-form-input c-form-input--large" type="tel" name="BillFax" value="&mvte:global:BillFax;">
 				</li>
-				-->
 				<li class="c-form-list__item o-layout__item u-width-8--m &mvte:global:BillAddress1_Row;">
 					<label class="c-form-label u-text-medium u-color-gray-40 is-required u-font-tiny" for="l-BillAddress1">Address</label>
 					<input id="l-BillAddress1" class="c-form-input c-form-input--large" type="text" name="BillAddress1" value="&mvte:global:BillAddress1;" &mvt:billing_required;>
